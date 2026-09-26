@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO Meta Tags -->
+  <title>MD GOLAM SUBHANI | Aspiring Software Developer</title>
+  <meta name="description" content="Portfolio of MD Golam Subhani, an aspiring software developer and CSE & AI student exploring programming, web development, databases, and AI-powered applications." />
+  <meta name="keywords" content="MD Golam Subhani, software developer, CSE student, AI, web development, Python, Java, portfolio" />
+  <meta name="author" content="MD GOLAM SUBHANI" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="MD GOLAM SUBHANI | Aspiring Software Developer" />
+  <meta property="og:description" content="Portfolio of MD Golam Subhani, an aspiring software developer and CSE & AI student exploring programming, web development, databases, and AI-powered applications." />
+  <meta property="og:url" content="https://mdgolamsubhani.dev" />
+  <meta property="og:image" content="profile-placeholder.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MD GOLAM SUBHANI | Aspiring Software Developer" />
+  <meta name="twitter:description" content="Portfolio of MD Golam Subhani, an aspiring software developer and CSE & AI student." />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230d1117'/><text y='.9em' font-size='72' x='8'>👨‍💻</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== SCROLL PROGRESS ===================== -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="MD GOLAM SUBHANI - Home">
+        <span class="logo-bracket">&lt;</span>MGS<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+          <span class="theme-icon" id="themeIcon">☀️</span>
+        </button>
+        <a href="#contact" class="btn btn-primary nav-cta">Let's Connect</a>
+        <button class="hamburger" id="hamburger" aria-label="Open mobile menu" aria-expanded="false" aria-controls="navLinks">
+          <span class="ham-line"></span>
+          <span class="ham-line"></span>
+          <span class="ham-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="hero" id="home" aria-labelledby="hero-heading">
+    <div class="hero-bg-grid" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+
+    <div class="container hero-container">
+      <!-- Left: Text Content -->
+      <div class="hero-content fade-in-up">
+        <div class="hero-badge">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Open to Internships & Opportunities</span>
+        </div>
+
+        <h1 class="hero-name" id="hero-heading">
+          Hi, I'm <br />
+          <span class="gradient-text">MD GOLAM SUBHANI</span>
+        </h1>
+
+        <p class="hero-role" aria-label="Role: Aspiring Software Developer and Technology Enthusiast">
+          Aspiring Software Developer &amp; Technology Enthusiast
+        </p>
+
+        <div class="hero-tags" aria-label="Identity tags">
+          <span class="hero-tag">Student</span>
+          <span class="separator" aria-hidden="true">•</span>
+          <span class="hero-tag">Programmer</span>
+          <span class="separator" aria-hidden="true">•</span>
+          <span class="hero-tag">Problem Solver</span>
+          <span class="separator" aria-hidden="true">•</span>
+          <span class="hero-tag">Project Builder</span>
+        </div>
+
+        <p class="hero-description">
+          I'm an aspiring software developer currently studying <strong>B.Tech in CSE & AI</strong>.
+          I'm actively learning Python, Java, web development, and building AI-powered applications
+          — while exploring both frontend, backend, and database technologies.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary" id="hero-view-projects">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.15 14.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012.06 4h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 11.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 18z"></path></svg>
+            View My Projects
+          </a>
+          <a href="#contact" class="btn btn-secondary" id="hero-connect">Let's Connect</a>
+          <a href="https://linkedin.com/in/md-golam-subhani-443096425" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" id="hero-linkedin" aria-label="View LinkedIn Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            View LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Profile Image -->
+      <div class="hero-image-area fade-in-up" style="animation-delay:0.2s">
+        <div class="profile-ring-outer" aria-hidden="true">
+          <div class="profile-ring-inner">
+            <div class="profile-image-wrapper">
+              <!-- 
+                ╔══════════════════════════════════════════╗
+                ║  REPLACE YOUR PHOTO HERE                 ║
+                ║  Replace "profile-placeholder.jpg"       ║
+                ║  with your actual professional photo     ║
+                ╚══════════════════════════════════════════╝
+              -->
+              <img
+                src="profile-placeholder.jpg"
+                alt="MD Golam Subhani - Aspiring Software Developer profile photo"
+                class="profile-img"
+                id="profile-photo"
+                loading="eager"
+              />
+              <div class="profile-img-fallback" aria-hidden="true">
+                <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="60" cy="45" r="22" fill="url(#avatarGrad)"/>
+                  <ellipse cx="60" cy="95" rx="32" ry="20" fill="url(#avatarGrad)"/>
+                  <defs>
+                    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#38bdf8"/>
+                      <stop offset="100%" style="stop-color:#818cf8"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating code snippets around profile -->
+        <div class="floating-badge badge-python" aria-hidden="true">
+          <span class="badge-dot"></span> Python
+        </div>
+        <div class="floating-badge badge-ai" aria-hidden="true">
+          <span class="badge-dot"></span> AI/ML
+        </div>
+        <div class="floating-badge badge-web" aria-hidden="true">
+          <span class="badge-dot"></span> Web Dev
+        </div>
+        <div class="floating-badge badge-java" aria-hidden="true">
+          <span class="badge-dot"></span> Java
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT SECTION ===================== -->
+  <section class="section about-section" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Get to Know Me</p>
+        <h2 class="section-title" id="about-heading">About Me</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="about-grid">
+        <!-- About Text -->
+        <div class="about-text reveal">
+          <p class="about-intro">
+            I'm <strong>MD Golam Subhani</strong>, an aspiring software developer and technology enthusiast based in <strong>West Bengal, India</strong>.
+          </p>
+          <p class="about-body">
+            Currently pursuing a <strong>B.Tech in Computer Science & Engineering + Artificial Intelligence</strong> at MEDHAVI Skill University & PWIOI (2026–2030), I'm on an exciting learning journey that spans programming fundamentals, web development, databases, and AI-powered applications.
+          </p>
+          <p class="about-body">
+            I actively learn by doing — I enjoy exploring new technologies, solving problems, and building real-world projects. My current focus includes Python, Java, HTML, CSS, JavaScript, and I'm progressively diving deeper into frontend development, backend systems, and the fascinating world of Artificial Intelligence.
+          </p>
+          <p class="about-body">
+            My goal is to grow steadily as a software developer, build meaningful applications, and contribute to innovative tech solutions. I believe in continuous learning, practical experience, and letting code speak for itself.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon" aria-hidden="true">🎓</span>
+              <span>B.Tech CSE + AI Student (2026–2030)</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon" aria-hidden="true">💻</span>
+              <span>Building real-world software projects</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon" aria-hidden="true">🤖</span>
+              <span>Exploring AI-powered applications</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon" aria-hidden="true">📍</span>
+              <span>West Bengal, India</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats / Quick Profile -->
+        <div class="about-stats reveal" style="animation-delay:0.15s">
+          <div class="stats-card">
+            <h3 class="stats-card-title">Quick Profile</h3>
+
+            <div class="stat-item">
+              <div class="stat-label">Status</div>
+              <div class="stat-value">
+                <span class="status-dot-green" aria-hidden="true"></span>
+                Student & Project Builder
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Degree</div>
+              <div class="stat-value">B.Tech in CSE & AI</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">University</div>
+              <div class="stat-value">MEDHAVI Skill University & PWIOI</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Program</div>
+              <div class="stat-value">2026 – 2030</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Focus Areas</div>
+              <div class="stat-value">Web Dev · AI · Backend</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Projects Built</div>
+              <div class="stat-value accent-text">6 Projects</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Location</div>
+              <div class="stat-value">West Bengal, India</div>
+            </div>
+          </div>
+
+          <!-- Certifications note -->
+          <div class="cert-note-card">
+            <div class="cert-note-icon" aria-hidden="true">📚</div>
+            <div>
+              <div class="cert-note-title">Certifications</div>
+              <div class="cert-note-body">Currently building skills through hands-on learning and real-world projects.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS SECTION ===================== -->
+  <section class="section skills-section" id="skills" aria-labelledby="skills-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What I Work With</p>
+        <h2 class="section-title" id="skills-heading">My Skills</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Category 1: Programming Languages -->
+        <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+            </div>
+            <h3 class="skill-cat-title">Programming Languages</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip"><span class="chip-icon">🐍</span>Python</span>
+            <span class="skill-chip"><span class="chip-icon">☕</span>Java</span>
+            <span class="skill-chip"><span class="chip-icon">🔵</span>C</span>
+            <span class="skill-chip"><span class="chip-icon">⚙️</span>C++</span>
+          </div>
+        </div>
+
+        <!-- Category 2: Frontend / Web -->
+        <div class="skill-category-card reveal" style="animation-delay:0.1s">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 12h8M12 8v8"/></svg>
+            </div>
+            <h3 class="skill-cat-title">Frontend / Web</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip"><span class="chip-icon">🌐</span>HTML</span>
+            <span class="skill-chip"><span class="chip-icon">🎨</span>CSS</span>
+            <span class="skill-chip"><span class="chip-icon">⚡</span>JavaScript</span>
+            <span class="skill-chip"><span class="chip-icon">⚛️</span>React</span>
+          </div>
+        </div>
+
+        <!-- Category 3: Databases -->
+        <div class="skill-category-card reveal" style="animation-delay:0.2s">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <h3 class="skill-cat-title">Databases</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip"><span class="chip-icon">🗄️</span>MySQL</span>
+            <span class="skill-chip"><span class="chip-icon">🐘</span>PostgreSQL</span>
+            <span class="skill-chip"><span class="chip-icon">🍃</span>MongoDB</span>
+          </div>
+        </div>
+
+        <!-- Category 4: Tools & Dev -->
+        <div class="skill-category-card reveal" style="animation-delay:0.1s">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="skill-cat-title">Tools &amp; Development</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip"><span class="chip-icon">🔀</span>Git</span>
+            <span class="skill-chip"><span class="chip-icon">🐙</span>GitHub</span>
+            <span class="skill-chip"><span class="chip-icon">💻</span>VS Code</span>
+            <span class="skill-chip"><span class="chip-icon">🤖</span>Google AI Studio</span>
+          </div>
+        </div>
+
+        <!-- Category 5: AI & Other -->
+        <div class="skill-category-card reveal" style="animation-delay:0.2s">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2z"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3 class="skill-cat-title">AI &amp; Other Skills</h3>
+          </div>
+          <div class="skill-chips">
+            <span class="skill-chip chip-accent"><span class="chip-icon">✨</span>AI Tools</span>
+            <span class="skill-chip chip-accent"><span class="chip-icon">💬</span>Prompt Engineering</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS SECTION ===================== -->
+  <section class="section projects-section" id="projects" aria-labelledby="projects-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What I've Built</p>
+        <h2 class="section-title" id="projects-heading">Featured Projects</h2>
+        <div class="section-line" aria-hidden="true"></div>
+        <p class="section-subtitle">A showcase of AI-powered applications and web tools I've built during my learning journey.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: MindVault AI -->
+        <article class="project-card reveal" aria-labelledby="proj-1-title">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+              </div>
+              <span class="project-status">AI-Powered</span>
+            </div>
+            <h3 class="project-title" id="proj-1-title">MindVault AI</h3>
+            <p class="project-desc">
+              An AI-powered application designed to help users capture, organize, and retrieve knowledge intelligently. Built as part of my exploration into AI-integrated tools.
+            </p>
+            <div class="project-tags" aria-label="Technologies used">
+              <span class="tag">Python</span>
+              <span class="tag">AI</span>
+              <span class="tag">Google AI Studio</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-note">🚧 In Development</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Resume & Skill Coach AI -->
+        <article class="project-card reveal" style="animation-delay:0.1s" aria-labelledby="proj-2-title">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+              </div>
+              <span class="project-status">AI-Powered</span>
+            </div>
+            <h3 class="project-title" id="proj-2-title">Resume &amp; Skill Coach AI</h3>
+            <p class="project-desc">
+              An AI-powered coach that assists users in building better resumes and identifying skill gaps — helping job seekers and students improve their professional profiles.
+            </p>
+            <div class="project-tags" aria-label="Technologies used">
+              <span class="tag">Python</span>
+              <span class="tag">AI</span>
+              <span class="tag">Prompt Engineering</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-note">🚧 In Development</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Study Planner AI -->
+        <article class="project-card reveal" style="animation-delay:0.2s" aria-labelledby="proj-3-title">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+              </div>
+              <span class="project-status">AI-Powered</span>
+            </div>
+            <h3 class="project-title" id="proj-3-title">Study Planner AI</h3>
+            <p class="project-desc">
+              An intelligent study planning tool powered by AI that helps students organize their study schedule, track subjects, and stay on top of their academic goals.
+            </p>
+            <div class="project-tags" aria-label="Technologies used">
+              <span class="tag">Python</span>
+              <span class="tag">AI</span>
+              <span class="tag">Prompt Engineering</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-note">🚧 In Development</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Campus Buddy AI -->
+        <article class="project-card reveal" style="animation-delay:0.1s" aria-labelledby="proj-4-title">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+              </div>
+              <span class="project-status">AI-Powered</span>
+            </div>
+            <h3 class="project-title" id="proj-4-title">Campus Buddy AI</h3>
+            <p class="project-desc">
+              A campus-focused AI assistant designed to help students navigate academic life — from resources and schedules to general student Q&amp;A powered by AI.
+            </p>
+            <div class="project-tags" aria-label="Technologies used">
+              <span class="tag">Python</span>
+              <span class="tag">AI</span>
+              <span class="tag">Google AI Studio</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-note">🚧 In Development</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Smart Calculator (LIVE) -->
+        <article class="project-card project-card-featured reveal" style="animation-delay:0.2s" aria-labelledby="proj-5-title">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8M8 14h4"/></svg>
+              </div>
+              <span class="project-status project-status-live">🟢 Live</span>
+            </div>
+            <h3 class="project-title" id="proj-5-title">Smart Calculator</h3>
+            <p class="project-desc">
+              A feature-rich, responsive web-based calculator with a modern interface. Supports standard arithmetic and additional smart computation features — fully deployed and live on the web.
+            </p>
+            <div class="project-tags" aria-label="Technologies used">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Node.js</span>
+            </div>
+            <div class="project-footer">
+              <a
+                href="https://smartcalc-hub.github.io/smartcalc-hub"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-sm"
+                id="smart-calc-demo"
+                aria-label="View Smart Calculator live demo"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LEARNING JOURNEY ===================== -->
+  <section class="section journey-section" id="journey" aria-labelledby="journey-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Growth &amp; Progress</p>
+        <h2 class="section-title" id="journey-heading">My Learning Journey</h2>
+        <div class="section-line" aria-hidden="true"></div>
+        <p class="section-subtitle">A continuous path of exploration, learning, and growth — from fundamentals to modern technologies.</p>
+      </div>
+
+      <div class="journey-grid">
+        <div class="journey-card reveal">
+          <div class="journey-icon" aria-hidden="true">🔤</div>
+          <h3 class="journey-card-title">Programming Fundamentals</h3>
+          <p class="journey-card-desc">Building a solid foundation in programming logic, data structures, and algorithmic thinking through Python, Java, C, and C++.</p>
+        </div>
+        <div class="journey-card reveal" style="animation-delay:0.1s">
+          <div class="journey-icon" aria-hidden="true">🌐</div>
+          <h3 class="journey-card-title">Web Development</h3>
+          <p class="journey-card-desc">Learning frontend development with HTML, CSS, and JavaScript. Exploring React for building modern web interfaces and responsive layouts.</p>
+        </div>
+        <div class="journey-card reveal" style="animation-delay:0.2s">
+          <div class="journey-icon" aria-hidden="true">⚙️</div>
+          <h3 class="journey-card-title">Backend &amp; Databases</h3>
+          <p class="journey-card-desc">Exploring server-side programming and data management using MySQL, PostgreSQL, and MongoDB to build full-stack applications.</p>
+        </div>
+        <div class="journey-card reveal" style="animation-delay:0.3s">
+          <div class="journey-icon" aria-hidden="true">🤖</div>
+          <h3 class="journey-card-title">Artificial Intelligence</h3>
+          <p class="journey-card-desc">Actively exploring AI tools, prompt engineering, and Google AI Studio to build intelligent, AI-powered applications that solve real problems.</p>
+        </div>
+      </div>
+
+      <div class="journey-goal reveal">
+        <div class="journey-goal-inner">
+          <span class="journey-goal-icon" aria-hidden="true">🎯</span>
+          <div>
+            <h3 class="journey-goal-title">Career Goal</h3>
+            <p class="journey-goal-text">To grow as a software developer, continuously improve my programming skills, build meaningful real-world applications, and explore modern technologies including web development and AI.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION SECTION ===================== -->
+  <section class="section education-section" id="education" aria-labelledby="education-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Academic Background</p>
+        <h2 class="section-title" id="education-heading">Education</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="education-timeline">
+
+        <!-- Education 1: B.Tech -->
+        <div class="edu-card reveal" aria-labelledby="edu-1-title">
+          <div class="edu-card-accent" aria-hidden="true"></div>
+          <div class="edu-card-body">
+            <div class="edu-card-header">
+              <div class="edu-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div>
+                <div class="edu-duration">2026 – 2030</div>
+                <div class="edu-status-badge">🟢 Currently Enrolled</div>
+              </div>
+            </div>
+            <h3 class="edu-degree" id="edu-1-title">B.Tech in Computer Science &amp; Engineering</h3>
+            <div class="edu-specialization">+ Artificial Intelligence</div>
+            <div class="edu-institution">MEDHAVI Skill University &amp; PWIOI</div>
+            <p class="edu-description">
+              Pursuing a four-year undergraduate degree focused on computer science fundamentals, software engineering, and artificial intelligence. The program covers programming, data structures, algorithms, databases, web technologies, and modern AI concepts.
+            </p>
+          </div>
+        </div>
+
+        <!-- Education 2: High School -->
+        <div class="edu-card reveal" style="animation-delay:0.15s" aria-labelledby="edu-2-title">
+          <div class="edu-card-accent edu-card-accent-alt" aria-hidden="true"></div>
+          <div class="edu-card-body">
+            <div class="edu-card-header">
+              <div class="edu-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <div>
+                <div class="edu-duration">Higher Secondary</div>
+                <div class="edu-status-badge edu-status-complete">✅ Completed</div>
+              </div>
+            </div>
+            <h3 class="edu-degree" id="edu-2-title">Higher Secondary (H.S.)</h3>
+            <div class="edu-institution">HEMTABAD ADARSHA VIDYALAYA (H.S.)</div>
+            <p class="edu-description">
+              Completed higher secondary education, building the academic foundation that led to pursuing a career in computer science and software development.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT SECTION ===================== -->
+  <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Reach Out</p>
+        <h2 class="section-title" id="contact-heading">Let's Connect</h2>
+        <div class="section-line" aria-hidden="true"></div>
+        <p class="section-subtitle">I'm open to internships, collaborations, and learning opportunities. Feel free to reach out!</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info reveal">
+          <h3 class="contact-info-title">Get In Touch</h3>
+          <p class="contact-info-body">Whether you want to discuss a project, an internship opportunity, or just want to say hello — I'd love to hear from you.</p>
+
+          <div class="contact-links">
+            <a href="mailto:md.subhani.sot2026@pwioi.com" class="contact-link-item" id="contact-email-link" aria-label="Send email to MD Golam Subhani">
+              <div class="contact-link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <div class="contact-link-label">Email</div>
+                <div class="contact-link-value">md.subhani.sot2026@pwioi.com</div>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com/in/md-golam-subhani-443096425" target="_blank" rel="noopener noreferrer" class="contact-link-item" id="contact-linkedin-link" aria-label="Visit LinkedIn profile">
+              <div class="contact-link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div>
+                <div class="contact-link-label">LinkedIn</div>
+                <div class="contact-link-value">md-golam-subhani-443096425</div>
+              </div>
+            </a>
+
+            <div class="contact-link-item contact-link-static" aria-label="Location">
+              <div class="contact-link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="contact-link-label">Location</div>
+                <div class="contact-link-value">West Bengal, India</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper reveal" style="animation-delay:0.15s">
+          <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+            <div class="form-note" role="note">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              This form uses your email client to send messages directly.
+            </div>
+
+            <div class="form-group">
+              <label for="contactName" class="form-label">Your Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="contactName"
+                name="name"
+                class="form-input"
+                placeholder="Enter your name"
+                required
+                autocomplete="name"
+                aria-required="true"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail" class="form-label">Your Email <span aria-hidden="true">*</span></label>
+              <input
+                type="email"
+                id="contactEmail"
+                name="email"
+                class="form-input"
+                placeholder="Enter your email"
+                required
+                autocomplete="email"
+                aria-required="true"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">Message <span aria-hidden="true">*</span></label>
+              <textarea
+                id="contactMessage"
+                name="message"
+                class="form-input form-textarea"
+                placeholder="What would you like to discuss?"
+                rows="5"
+                required
+                aria-required="true"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="contactSubmit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-bracket">&lt;</span>MGS<span class="logo-bracket">/&gt;</span>
+          </div>
+          <p class="footer-tagline">Building. Learning. Improving.</p>
+          <p class="footer-name">MD GOLAM SUBHANI</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <div class="footer-nav-col">
+            <div class="footer-nav-title">Navigate</div>
+            <ul role="list">
+              <li><a href="#home" class="footer-link">Home</a></li>
+              <li><a href="#about" class="footer-link">About</a></li>
+              <li><a href="#skills" class="footer-link">Skills</a></li>
+              <li><a href="#projects" class="footer-link">Projects</a></li>
+              <li><a href="#education" class="footer-link">Education</a></li>
+              <li><a href="#contact" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-col">
+            <div class="footer-nav-title">Connect</div>
+            <ul role="list">
+              <li>
+                <a href="https://linkedin.com/in/md-golam-subhani-443096425" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="LinkedIn profile">
+                  LinkedIn ↗
+                </a>
+              </li>
+              <li>
+                <a href="mailto:md.subhani.sot2026@pwioi.com" class="footer-link" aria-label="Send email">
+                  Email ↗
+                </a>
+              </li>
+              <li>
+                <a href="https://smartcalc-hub.github.io/smartcalc-hub" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="Smart Calculator live demo">
+                  Smart Calc ↗
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 MD GOLAM SUBHANI. All rights reserved.</p>
+        <p class="footer-built">Designed &amp; Built by MD Golam Subhani</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== BACK TO TOP ===================== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top" hidden>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
